@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <!--Since the Rise time value is too long, I've customized the-->
+        <!--item to look like this-->
+
+        <TextView
+            android:id="@+id/tvRiseTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Rise Time"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Duration"
+            android:textColor="#ff8800"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</RelativeLayout>
